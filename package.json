@@ -1,0 +1,18 @@
+{
+  "author": "Christian Tellnes <christian@tellnes.no> (http://christian.tellnes.com/)",
+  "name": "clinit",
+  "description": "Cli Init Control",
+  "version": "0.0.0",
+  "preferGlobal": true,
+  "main": "./lib/clinit.js",
+  "bin": "./bin/clinit",
+  "dependencies": {
+    "pidfile": "0.0.1",
+    "pkginfo": "~0.2.3"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

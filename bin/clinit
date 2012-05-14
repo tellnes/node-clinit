@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+process.title = 'clinit';
+
+var path = require('path')
+  , clinit = require('..')
+
+
+var pkg = clinit.readPackage()
+  , cmd = process.env.npm_lifecycle_event || process.argv[2]
+
+
+clinit.exec({ name: pkg.package.name
+          , cwd: pkg.dir
+          , main: pkg.package.main
+          , cmd: process.env.npm_lifecycle_event || process.argv[2]
+          , lockFile: pkg.package.lockFile ? path.resolve(pkg.dir, pkg.package.lockFile) : pkg.dir + '/.pid'
+          })
