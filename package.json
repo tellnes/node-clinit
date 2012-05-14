@@ -2,7 +2,7 @@
   "author": "Christian Tellnes <christian@tellnes.no> (http://christian.tellnes.com/)",
   "name": "clinit",
   "description": "Cli Init Control",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "preferGlobal": true,
   "main": "./lib/clinit.js",
   "bin": "./bin/clinit",
