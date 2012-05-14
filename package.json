@@ -7,8 +7,7 @@
   "main": "./lib/clinit.js",
   "bin": "./bin/clinit",
   "dependencies": {
-    "pidfile": "0.0.1",
-    "pkginfo": "~0.2.3"
+    "pidfile": "0.0.1"
   },
   "devDependencies": {},
   "optionalDependencies": {},
